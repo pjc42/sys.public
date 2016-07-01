@@ -1,4 +1,14 @@
 script_filename="${BASH_SOURCE[0]}"
+version="01.00"
+
+# it is difficult to get this script into the vm without guest additions
+# already being installed. one way is to use wget from github
+# 
+#   wget https://raw.githubusercontent.com/pjc42/system-virtualbox/master/install-guest-additions.sh
+#
+# and then run the file
+#   $ bash ./install-guest-additions.sh
+#
 
 echo "$sep2"
 echo "START:"
