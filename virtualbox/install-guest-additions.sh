@@ -6,6 +6,10 @@ version="01.00"
 # 
 #   wget https://raw.githubusercontent.com/pjc42/system-virtualbox/master/install-guest-additions.sh
 #
+# or bitbucket, get the url from `raw` url in source view
+#
+#  wget https://bitbucket.org/pjcrosbie/sys.public/raw/f7be6c2cc32e48679ed486605cd8592d49db9ad5/virtualbox/install-guest-additions.sh
+# 
 # and then run the file
 #   $ bash ./install-guest-additions.sh
 #
